@@ -16,7 +16,14 @@ vehicles = pd.read_csv("~/Desktop/Data/Pandas/vehicles.csv")
 # In[3]:
 
 
-vehicles.shape
+def shape (x):
+    return x.shape
+
+
+# In[4]:
+
+
+shape(vehicles)
 
 
 # In[ ]:
