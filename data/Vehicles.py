@@ -1,26 +1,26 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[2]:
 
 
 import pandas as pd
 
 
-# In[2]:
+# In[3]:
 
 
 vehicles = pd.read_csv("~/Desktop/Data/Pandas/vehicles.csv")
 
 
-# In[3]:
-
-
-def shape (x):
-    return x.shape
-
-
 # In[4]:
+
+
+def shape(x):
+    print(x.shape)
+
+
+# In[5]:
 
 
 shape(vehicles)
