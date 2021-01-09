@@ -10,7 +10,7 @@ import pandas as pd
 # In[3]:
 
 
-vehicles = pd.read_csv("~/Desktop/Data/Pandas/vehicles.csv")
+vehicles = pd.read_csv("../data/vehicles.csv")
 
 
 # In[6]:
